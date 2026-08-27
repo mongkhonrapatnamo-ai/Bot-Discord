@@ -234,4 +234,4 @@ async def setup(ctx):
         f"สร้างปุ่มลงทะเบียนในช่อง <#{VERIFY_CHANNEL_ID}> เรียบร้อยแล้ว!"
     )
 
-bot.run(os.environ.get("DISCORD_TOKEN")) 
+bot.run(os.environ.get("DISCORD_TOKEN"))

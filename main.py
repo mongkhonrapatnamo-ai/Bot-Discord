@@ -93,6 +93,8 @@ class AgeSelect(Select):
         user = interaction.user
         selected_age = self.values[0]
 
+        await interaction.response.send_message("บันทึกข้อมูลเรียบร้อยแล้วครับ!", ephemeral=True)
+        
         # เปลี่ยนชื่อเล่น
         new_nickname = f"{self.name_en} | {self.name_th}"
         try:

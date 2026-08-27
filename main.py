@@ -1,7 +1,9 @@
 import discord
 from discord.ext import commands
 from discord.ui import Modal, Select, TextInput, View
+from keep_alive import keep_alive # <--- เพิ่มตรงนี้
 
+keep_alive() # <--- เพิ่มตรงนี้
 intents = discord.Intents.default()
 intents.message_content = True
 
